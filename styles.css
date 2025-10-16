@@ -13,14 +13,17 @@ ul {
   text-decoration: none;
 }
 
-a,
-.grey {
+a {
   text-decoration: none;
   color: black;
   outline: none;
   box-shadow: none;
 }
-
+.grey {
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+}
 .strong {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   opacity: 0.8;
@@ -29,7 +32,7 @@ a,
 
 .font-change-1 {
   font-family: cursive, monospace;
-  font-weight:900;
+  font-weight: 900;
 }
 
 .font-change-2 {
@@ -135,28 +138,5 @@ a,
 .nav-link,
 .nav-link:visited,
 .nav-link:active {
-  color: black !important;
   text-decoration: none !important;
 }
-
-.btn-primary {
-  background-color: black !important;
-  border-color: black !important;
-  color: white !important;
-}
-
-.btn-primary:hover {
-  background-color: #333 !important;
-  border-color: #333 !important;
-}
-
-.btn-outline-secondary {
-  color: black !important;
-  border-color: black !important;
-}
-
-.btn-outline-secondary:hover {
-  background-color: black !important;
-  color: white !important;
-}
-
