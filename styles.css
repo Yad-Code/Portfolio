@@ -13,9 +13,11 @@ ul {
   text-decoration: none;
 } 
 
-a {
+a, .grey {
   text-decoration: none;
   color: black;
+  outline:none;
+  box-shadow:none;
 }
 
 .strong {
@@ -118,4 +120,5 @@ a {
 }
 #tab-icon{
   fill:white;
+
 }
