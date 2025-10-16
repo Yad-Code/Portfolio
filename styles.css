@@ -141,3 +141,8 @@ a {
   text-decoration: none !important;
 }
 
+@media (max-width: 576px) {
+    .font-change-1 {
+      font-family: monospace;
+    }
+  }
