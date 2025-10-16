@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list1 {
+  display: flex;
+  gap: 5rem;
+}
+ 
+ul {
+  list-style: none;
+  text-decoration: none;
+} 
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.strong {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.8;
+  font-size: x-large;
+}
+
+.font-change-1 {
+  font-family: cursive;
+}
+
+.font-change-2 {
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.blue {
+  color: rgb(61, 61, 242);
+}
+
+#theme-switch {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.096);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  margin: 0 0 0 50px;
+  border: none;
+  background-color: hsla(0, 1%, 38%, 0.258);
+}
+
+#theme-switch svg {
+  fill: black;
+}
+
+#theme-switch svg:last-child {
+  display: none;
+  fill: white;
+}
+
+.grey {
+  background-color: rgba(128, 128, 128, 0.185);
+}
+
+.btn-float-gentle {
+  transition: all 0.3s ease;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.5rem 1rem;
+  border:none;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  cursor:default;
+
+}
+
+.btn-float-gentle:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px -3px rgba(0, 0, 0, 0.15),
+    0 10px 8px -8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(128, 128, 128, 0.185);
+}
+
+.head-sections {
+  font-family: cursive;
+  font-weight: bolder;
+  color: black;
+}
+
+.border-top1 {
+  border-top: 4px solid blue;
+}
+
+.margin-more {
+  margin-top: 150px;
+}
+
+.white-opacity {
+  background-color: hsla(0, 0%, 100%, 0);
+}
+
+.arrow {
+  fill: rgb(0, 0, 0);
+  cursor:pointer;
+}
+
+#naruto{
+  border:7px solid black;
+  border-radius: 20px;
+}
+#tab-icon{
+  fill:white;
+}
